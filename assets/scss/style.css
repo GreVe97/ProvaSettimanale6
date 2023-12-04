@@ -1,0 +1,17 @@
+* {
+  color: white !important;
+  background-color: #141414 !important;
+}
+
+header {
+  margin-left: -0.65rem;
+}
+
+.carousel-inner {
+  scroll-behavior: smooth;
+  height: 15rem;
+}
+
+.carousel-item {
+  width: 300 !important;
+}/*# sourceMappingURL=style.css.map */
