@@ -21,16 +21,8 @@ header a:hover {
   height: 15rem;
 }
 
-.carousel-item {
-  width: 300 !important;
-}
-
 .carousel-item a {
   margin: 0 0.5rem 0 0;
-}
-
-.carousel-item a:first-of-type {
-  margin-left: 0.5rem;
 }
 
 .carousel-item a:last-of-type {
