@@ -1,15 +1,40 @@
-*{
-    color: white !important;
-    background-color: #141414 !important; 
-}
-header{
-    margin-left: -0.65rem;
+* {
+  color: white !important;
+  background-color: #141414 !important;
 }
 
-  .carousel-inner{
-    scroll-behavior: smooth;
-    height: 15rem;
-  }
-  .carousel-item{
-    width: 300 !important;
-  }
+header {
+  margin-left: -0.65rem;
+   
+}
+header a{
+ color: gray !important;
+}
+header a:hover{
+  color: white !important;
+  font-weight: 500;
+
+}
+.carousel-inner {
+  scroll-behavior: smooth;
+  height: 15rem;
+}
+
+.carousel-item {
+  width: 300 !important;
+}
+.carousel-item a{
+  margin:0 0.5rem 0 0;
+}
+.carousel-item a:first-of-type{
+  margin-left: 0.5rem;
+}
+.carousel-item a:last-of-type{
+  margin-right: 0;
+}
+
+.carousel-item a:hover,.carousel-item img:hover{
+  z-index: 1;  
+  transform:scale(1.01);
+ 
+}
